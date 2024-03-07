@@ -1,6 +1,7 @@
 {
   "name": "koinx",
   "version": "0.1.0",
+  "proxy" : "https://api.coingecko.com/api/v3",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",

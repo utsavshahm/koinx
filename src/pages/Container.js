@@ -5,6 +5,8 @@ import Example from '../global-components/Example';
 import About from './About';
 import Team from './Team'
 import Tokenomics from './Tokenomics';
+import Performance from './Performance';
+import TradingViewWidget from './TradingViewWidget';
 
 
 function Container() {
@@ -12,7 +14,9 @@ function Container() {
     <>
 
         <Grid container margin={'20px auto'} width={'85%'} border={'2px solid red'}>
+            <TradingViewWidget/>
             <Options/>
+            <Performance/>
             <About/>
             <Tokenomics/>
             <Team/>
