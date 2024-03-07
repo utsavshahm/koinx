@@ -13,7 +13,7 @@ function Container() {
   return (
     <>
 
-        <Grid container margin={'20px auto'} width={'85%'} border={'2px solid red'}>
+        <Grid container margin={'20px auto'} width={'85%'}>
             <TradingViewWidget/>
             <Options/>
             <Performance/>
